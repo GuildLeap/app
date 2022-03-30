@@ -1,0 +1,90 @@
+.join {
+    width:calc(100% - 30px);
+    position:relative;
+    height:150px;
+    background:#333;
+    color:white;
+    font-size:1.12em;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:20px 15px;
+    border-radius:3px;
+}
+.join a {
+   width: calc(100% - 40px);
+   box-sizing: border-box;
+   background: #2ecc71;
+   border: none;
+   color: #fff;
+   text-align:center;
+   padding: 15px 0;
+   border-radius: 3px;
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+   cursor: pointer;
+   opacity:1;
+   transition: 0.2s ease;
+}
+
+.j {
+    height:60%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+    align-items:center;
+}
+
+.join a:hover {
+    opacity:.92;
+}
+
+.join img {
+    border-radius:100%;
+    width:56px;
+    margin:0 10px 0 -8px;
+    height:56px;
+}
+
+.join span {
+    color:#ddd;
+}
+
+.discorduser {
+    /* color of you user name */
+    color:#8184d3!important;
+}
+@media only screen and (max-width: 1000px) {
+    .join img {
+        display:block;
+        margin-left:auto;
+        margin:0px auto 10px auto;
+        margin-right:auto;
+    }
+
+    .join {
+        height:auto!important;
+        max-height:auto!important;
+        align-items:center;
+        position:relative;
+        align-content:center!important;
+
+    }
+    .j {
+        height:auto;
+
+        align-content:center;
+    }
+
+    .join a {
+        left:0px;
+        margin:10px auto;
+        align-self:flex-end;
+        position:relative;
+        bottom:0px;
+        width:100%;
+    }
+}
